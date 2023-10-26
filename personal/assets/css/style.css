@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #161616;
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+}
+@font-face {
+  font-family: "Semi";
+  src: url(../fonts/Josefin_Sans/JosefinSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: "SemiItalic";
+  src: url(../fonts/Josefin_Sans/JosefinSans-SemiBoldItalic.ttf);
+}
+@font-face {
+  font-family: "Reg";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Light";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Light.ttf);
+}
+@font-face {
+  font-family: "LightItalic";
+  src: url(../fonts/Josefin_Sans/JosefinSans-LightItalic.ttf);
+}
+@font-face {
+  font-family: "Med";
+  src: url(../fonts/Josefin_Sans/JosefinSans-Medium.ttf);
+}
+@font-face {
+  font-family: "MedItalic";
+  src: url(../fonts/Josefin_Sans/JosefinSans-MediumItalic.ttf);
+}
+:root {
+  --bold: "Bold";
+  --semi: "Semi";
+  --Semiitalic: "SemiItalic";
+  --reg: "Reg";
+  --light: "Light";
+  --lightitalic: "LightItalic";
+  --med: "Med";
+  --meditalic: "MedItalic";
+}
+.navbar {
+  background-color: #161616;
+}
+.my-brand {
+  font-family: var(--semi);
+  color: #bb000e;
+  font-size: 26px;
+}
+.my-link {
+  font-family: var(--meditalic);
+  font-size: 22px;
+  color: aliceblue;
+  text-decoration: none;
+}
+#fluid-cont {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-toggler-icon {
+  background-color: #bb000e;
+}
+#container1,
+#container2,
+#container0 {
+  background-color: #161616;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.header-1 {
+  font-size: 74px;
+  font-family: var(--bold);
+  color: #bb000e;
+  text-decoration: none;
+}
+.body-1 {
+  font-size: 24px;
+  font-family: var(--lightitalic);
+  text-decoration: none;
+  color: aliceblue;
+}
+.mycard {
+  background-color: #1c1c1c;
+}
+.card-bg {
+  background-color: #1c1c1c;
+}
+.header-2 {
+  font-size: 26px;
+  font-family: var(--med);
+  color: aliceblue;
+}
+.header-3 {
+  font-size: 50px;
+  font-family: var(--Semiitalic);
+  color: #bb000e;
+}
+.body-2 {
+  font-size: 22px;
+  font-family: var(--reg);
+  color: aliceblue;
+}
+.sub-1 {
+  font-size: 20px;
+  font-family: var(--lightitalic);
+  color: aliceblue;
+}
+.img1 {
+  border-radius: 10px;
+}
+#half-card,
+.header-2,
+.body-2,
+.sub-1,
+.img-box,
+#footer {
+  background-color: #1c1c1c;
+}
+#my-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  height: 60px;
+  background-color: #bb000e;
+  border-radius: 10px;
+}
+.button-text {
+  font-family: var(--med);
+  color: aliceblue;
+  font-size: 22px;
+}
+#footer {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 450px) {
+  .body-2,
+  .button-text {
+    font-size: 16px;
+  }
+  #my-button {
+    width: 140px;
+    height: 40px;
+  }
+  #footer {
+    height: 75px;
+  }
+  .img-box {
+    display: flex;
+    justify-content: center;
+  }
+  .mycard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-1 {
+    font-size: 38px;
+  }
+  .header-3 {
+    font-size: 30px;
+  }
+  .body-1 {
+    font-size: 16px;
+  }
+  .nav-item {
+    margin-top: 20px;
+  }
+}
